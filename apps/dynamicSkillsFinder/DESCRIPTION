@@ -1,0 +1,33 @@
+Package: dynamicSkillsFinder
+Title: Dynamic Skills Finder
+Version: 1.0.0.0000
+Authors@R: 
+    person("Óscar", "Bartolomé", , "obartolomep@gmail.com", role = c("aut", "cre"))
+Description: Shiny App to find and analyse tactical insights and players based on SkillCorner Dynamic events and Tracking data.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    arrow,
+    bsicons,
+    bslib,
+    DT,
+    dplyr,
+    gdtools,
+    gfonts,
+    ggforce,
+    ggiraph,
+    ggnewscale,
+    ggplot2,
+    ggrepel,
+    scales,
+    shiny,
+    shinycssloaders,
+    shinyjs,
+    shinyWidgets,
+    showtext,
+    stringi,
+    stringr,
+    sysfonts,
+    tidyr,

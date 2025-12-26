@@ -1,63 +1,62 @@
-# SkillCorner X PySport Analytics Cup
-This repository contains the submission template for the SkillCorner X PySport Analytics Cup **Analyst Track**. 
-Your submission for the **Analyst Track** should be on the `main` branch of your own fork of this repository.
+## Dynamic Skills Finder - Analyst Track
 
-Find the Analytics Cup [**dataset**](https://github.com/SkillCorner/opendata/tree/master/data) and [**tutorials**](https://github.com/SkillCorner/opendata/tree/master/resources) on the [**SkillCorner Open Data Repository**](https://github.com/SkillCorner/opendata).
+<p align="center">
+    <img src="/images/dsf_logo_shortcut_circle.png" width="200" height="200">
+</p>
 
-## Submitting
-Make sure your `main` branch contains:
-
-1. A single Jupyter Notebook in the root of this repository called `submission.ipynb`
-    - This Juypter Notebook can not contain more than 2000 words.
-    - All other code should also be contained in this repository, but should be imported into the notebook from the `src` folder.
-
-
-or,
-
-
-1. A single Python file in the root of this repository called `main.py`
-    - This file should not contain more than 2000 words.
-    - All other code should also be contained in this repository, but should be imported into the notebook from the `src` folder.
-
-or, 
-
-
-1. A publicly accessible web app or website written in a language of your choice (e.g. Javascript)
-
-    - Your code should follow a clear and well defined structure.
-    - All other code should also be contained in this repository.
-    - The URL to the webapp should be included at the bottom of the read me under **URL to Web App / Website**
-
-
-2. An abstract of maximum 300 words that follows the **Analyst Track Abstract Template**.
-3. Add a URL to a screen recording video of maximum 60 seconds that shows your work. Add it under the **Video URL** Section below. (Use YouTube, or any other site to share this video).
-4. Submit your GitHub repository on the [Analytics Cup Pretalx page](https://pretalx.pysport.org)
-
-Finally:
-- Make sure your GitHub repository does **not** contain big data files. The tracking data should be loaded directly from the [Analytics Cup Data GitHub Repository](https://github.com/SkillCorner/opendata). For more information on how to load the data directly from GitHub please see this [Jupyter Notebook](https://github.com/SkillCorner/opendata/blob/master/resources/getting-started-skc-tracking-kloppy.ipynb).
-- Make sure the `submission.ipynb` notebook runs on a clean environment, or
-- Provide clear and concise instructions how to run the `main.py` (e.g. `streamlit run main.py`) if applicable in the **Run Instructions** Section below.
-- Providing a URL to a publically accessible webapp or website with a running version of your submission is mandatory when choosing to submit in a different language then Python, it is encouraged, but optional when submitting in Python.
-
-_⚠️ Not adhering to these submission rules and the [**Analytics Cup Rules**](https://pysport.org/analytics-cup/rules) may result in a point deduction or disqualification._
-
----
-
-## Analyst Track Abstract Template (max. 300 words)
 #### Introduction
 
-#### Usecase(s)
+Dynamic Skills Finder is an end-to-end data project.
+
+It starts with an ELT process where data is first downloaded from Skillcorner’s Opendata GitHub repository, which is then stored and later processed following a “medallion” architecture. It creates a DeltaLake-based datalakehouse. In the “bronze” layer, raw data is stored as it arrives. Next, in the “silver” layer, data is transformed to create fact tables and their corresponding dimension tables in a star schema format. Finally, in the “gold” layer, we define final views and aggregated tables for players and teams, ready for consumption.
+
+The second part of the project is an R Shiny web app that feeds directly from the DeltaLake. Its purpose is to facilitate the search for tactical team patterns or player scouting using Dynamic Event Data. To achieve this, the app includes various filters, charts, and tables that allow users to uncover insights not possible with other types of data. Additionally, each Dynamic Event can be visualized in video.
+
+<br>
+<p align="center">
+    <img src="/images/tactical_find_tracking.png" width="500" height="250">
+</p>
+<br>
+
+#### Usecases
+
+This app allows off-ball tactical analysis of teams in multiple ways, thanks to its wide range of filters and controls and its diverse options for visualizing information through multiple charts, tables and video.
+
+You can also perform player scouting and compare players using over 130 aggregated metrics created from Dynamic Event Data.
 
 #### Potential Audience
+
+Dynamic Skills Finder can be used across various departments within a club. Tactical analysts, scouts, and sporting directors can enhance their work with off-ball insights.
 
 ---
 
 ## Video URL
 
+<a href="https://youtu.be/RDQAqNRKvuE" target="_blank">Dynamic Skills Finder Video</a>
+
 ---
 
 ## Run Instructions
 
+To run the project locally:
+
+1. Open a python terminal and navigate to ‘etl/src’ folder:
+
+   ```bash
+   pip install -r requirements.txt
+   python elt.py
+   ```
+
+2. Open an R console and navigate to ‘apps/dynamicSkillsFinder’ folder:
+
+   ```bash
+   install.packages("renv")
+   renv::restore()
+   source("app.R")
+   launch_app()
+   ```
 ---
 
-## [Optional] URL to Web App / Website
+## URL to Web App
+
+To try the app: <a href="https://ob-projects-dynamicskillsfinder.share.connect.posit.cloud/" target="_blank">Dynamic Skills Finder App</a>

@@ -1,0 +1,522 @@
+a, h1, h2, h3, h4, h5, p, span, li, div {
+  font-family: "Lexend", sans-serif !important;
+}
+
+nav a, nav h1, nav h2, nav h3, nav h4, nav h5, nav p, nav span, nav li, nav div {
+  background-color: #fbfbfb !important;
+  color: black !important;
+  font-size: 14px !important;
+  font-family: "Lexend", sans-serif !important;
+}
+
+nav .dropdown-menu a:hover {
+  background-color: #898a8a89 !important;
+}
+
+nav a:active {
+  color: #404040 !important;
+  background-color: #fbfbfb !important;
+}
+
+nav .dropdown-item.active {
+  color: #fbfbfb !important;
+  background-color: #00a82f !important;
+}
+
+.nav-underline .nav-link.active, .nav-underline .nav-tabs > li > a.active, .nav-underline .nav-pills > li > a.active,
+.nav-underline :where(ul.nav.navbar-nav > li) > a.active, .nav-underline .show > .nav-link, .nav-underline .in > .nav-link,
+.nav-underline .nav-tabs > li.show > a, .nav-underline .nav-tabs > li.in > a, .nav-underline .nav-pills > li.show > a, .nav-underline
+.nav-pills > li.in > a, .nav-underline .show:where(ul.nav.navbar-nav > li) > a, .nav-underline .in:where(ul.nav.navbar-nav > li) > a {
+  border-bottom-color: #00a82f !important;
+}
+
+body {
+  background-color: #2a2d2f !important;
+  color: #fbfbfb !important;
+  font-size: 12px !important;
+}
+
+hr {
+  margin: 0 !important;
+  color: grey !important;
+  opacity: .25 !important;
+}
+
+.bslib-gap-spacing {
+  gap: 0px !important;
+}
+
+#tactical_find-dynamic_event_video-event_info_div h4 {
+  color: black !important;
+}
+
+#tactical_find-dynamic_event_video-event_info_div h5 {
+  color: grey !important;
+}
+
+#scouting_search-player_info-player_title_div h3 {
+  color: black !important;
+}
+
+#scouting_search-player_info-player_info_div h4 {
+  color: black !important;
+}
+
+#scouting_search-player_info-player_info_div h5 {
+  color: grey !important;
+}
+
+.btn {
+  --bs-btn-padding-x: 1em !important;
+  --bs-btn-padding-y: .35em !important;
+  --bs-btn-font-size: 12px !important;
+}
+
+.btn-outline-default, .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]) {
+  color: #fbfbfb !important;
+  border-color: #00a82f !important;
+  background-color: #00a82f !important;
+}
+
+.btn-outline-default:hover, .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]):hover {
+  color: #fbfbfb !important;
+  border-color: #404040 !important;
+  background-color: #404040 !important;
+}
+
+#tactical_find-dynamic_event_video-video_reload_input,
+#scouting_search-player_info-video_reload_input {
+  color: #fbfbfb !important;
+  border-color: #d31818ff !important;
+  background-color: #d31818ff !important;
+}
+
+#tactical_find-dynamic_event_video-video_reload_input:hover {
+  color: #fbfbfb !important;
+  border-color: #404040 !important;
+  background-color: #404040 !important;
+}
+
+.dropdown-menu, input, button, select, optgroup, textarea {
+  font-size: 12px !important;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: #898a8a89 !important;
+}
+
+.dropdown-menu > li.active > a {
+  color: #fbfbfb !important;
+  background-color: #00a82f !important;
+}
+
+a:active {
+  color: #fbfbfb !important;
+  background-color: #00a82f !important;
+}
+
+#scouting_search-filters_right_column > a,
+#tactical_find-download_filtered_dynamic_events_data,
+#scouting_search-download_filtered_players_data {
+  color: #00a82f !important;
+  text-decoration: none !important;
+}
+
+#scouting_search-filters_right_column > a:active,
+#scouting_search-filters_right_column > a:hover,
+#tactical_find-download_filtered_dynamic_events_data:active,
+#tactical_find-download_filtered_dynamic_events_data:hover,
+#scouting_search-download_filtered_players_data:active,
+#scouting_search-download_filtered_players_data:hover {
+  color: #404040 !important;
+  background-color: #fbfbfb !important;
+}
+
+#tactical_find-download_filtered_dynamic_events_data,
+#scouting_search-download_filtered_players_data {
+  float: right !important;
+}
+
+#scouting_search-download_filtered_players_ui {
+  display: block !important;
+  margin-top: -28px !important;
+}
+
+.nav-link, .nav-tabs > li > a, .nav-pills > li > a, :where(ul.nav.navbar-nav > li) > a {
+  color: #00a82f !important;
+}
+
+.nav-link, .nav-tabs > li > a, .nav-pills > li > a, :where(ul.nav.navbar-nav > li) > a:hover {
+  color: #00a82f !important;
+}
+
+.nav-link, .nav-tabs > li > a, .nav-pills > li > a, :where(ul.nav.navbar-nav > li) > a:active {
+  color: #404040 !important;
+}
+
+.btn-light {
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+}
+
+.bslib-card .card-header, .bslib-card .card-footer {
+  font-size: 14px !important;
+}
+
+.card-header {
+  color: #00a82f !important;
+  background-color: #dae5da !important;
+  border-bottom: none !important;
+}
+
+.bslib-card {
+  overflow: visible !important;
+  display: contents !important;
+}
+
+.card-body {
+  background-color: #fbfbfb !important;
+  overflow: visible !important;
+}
+
+#scouting_search-filters_card .card-body {
+  max-height: 74.4vh !important;
+  overflow: auto !important;
+}
+
+.card-footer {
+  background-color: #dae5da !important;
+  border-top: none !important;
+}
+
+.bslib-card .card-header, .bslib-card .card-footer {
+  font-size: small !important;
+}
+
+#scouting_search-filters_left_column, #tactical_compare-filters_left_column,
+#scouting_compare-filters_left_column {
+  border-right: 1px solid #00000040 !important;
+  padding-right: 20px !important;
+}
+
+#scouting_search-filters_right_column, #tactical_compare-filters_right_column,
+#scouting_compare-filters_right_column {
+  padding-left: 20px !important;
+}
+
+#scouting_compare-results_card, #tactical_compare-results_card {
+  width: inherit !important;
+}
+
+.ggiraph-svg-bg {
+  fill: #fbfbfb !important;
+  stroke: #fbfbfb !important;
+}
+
+[class^="tooltip_"] {
+  z-index: 100000 !important;
+}
+
+#tactical_compare-comparison_scatter_plot, #scouting_compare-comparison_scatter_plot {
+  max-height: 71vh !important;
+}
+
+.ggiraph-toolbar-icon.neutral {
+  stroke: #00a82f;
+  fill: #00a82f;
+}
+
+.ggiraph-toolbar-icon {
+  margin-right: 30px !important;
+  margin-top: 15px !important;
+  width: 20pt !important;
+}
+
+a.ggiraph-toolbar-icon:active, .ggiraph-toolbar-icon:hover {
+  color: #404040 !important;
+  background-color: #fbfbfb !important;
+}
+
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #00a82f #eeeeee !important;
+}
+
+.table {
+  border-color: #0096882e !important;
+  white-space: nowrap !important;
+  height: auto !important;
+  overflow: auto !important;
+}
+
+.table-striped > tbody > tr > * {
+  border: 1px solid #54696017 !important;
+}
+
+#tactical_find-filtered_dynamic_events_table .table-striped > tbody > tr > * {
+  padding: 1px !important;
+}
+
+#tactical_find-filtered_dynamic_events_table .dataTables_scrollBody {
+  max-height: 653px !important;
+  height: auto !important;
+}
+
+#scouting_search-filtered_player_aggregates_table .table-striped > tbody > tr > * {
+  padding: 4px !important;
+}
+
+.datatables thead th {
+  background-color: #dae5da !important;
+  color: black !important;
+}
+
+.dataTables_scroll {
+  margin-bottom: 15px !important;
+}
+
+#scouting_search-filtered_player_aggregates_table .dataTables_scrollBody {
+  max-height: 71vh !important;
+  height: auto !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: #e5e5e500;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) > * {
+  background-color: #caffe217;
+}
+
+.table-striped > tbody > tr:hover > * {
+  background-color: #57635d85 !important;
+  border: 1px solid #9b9e9bff !important;
+}
+
+.datatables thead th:first-of-type {
+  border-top-left-radius: 5px !important;
+}
+
+.datatables thead th:last-of-type {
+  border-top-right-radius: 5px !important;
+}
+
+table.dataTable tbody tr.selected:hover > *, table.dataTable.display > tbody > tr.selected:hover > * {
+  box-shadow: inset 0 0 0 9999px #57635d !important;
+  color: #fbfbfb !important;
+  border: 1px solid #9b9e9bff !important;
+}
+
+table.dataTable tbody tr.selected > *, table.dataTable.display > tbody > tr.selected > * {
+  box-shadow: inset 0 0 0 9999px #187432 !important;
+  color: #fbfbfb !important;
+  border: 1px solid #1e863bff !important;
+}
+
+.table .btn-outline-default, .table .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]) {
+  color: #fbfbfb !important;
+  border-color: #d31818ff !important;
+  background-color: #d31818ff !important;
+}
+
+.table .btn-outline-default:hover, .table .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]):hover {
+  color: #fbfbfb !important;
+  border-color: #404040 !important;
+  background-color: #404040 !important;
+}
+
+.html-fill-container > .html-fill-item.datatables {
+  flex-basis: auto !important;
+}
+
+div.dataTables_processing {
+  display: none !important;
+}
+
+.table {
+  --bs-table-striped-bg: none;
+}
+
+#scouting_search-filtered_player_aggregates_table {
+  margin-top: -10px !important;
+}
+
+#scouting_search-filtered_player_aggregates_table .btn-outline-default, #scouting_search-filtered_player_aggregates_table .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]) {
+  color: #fbfbfb !important;
+  border-color: #00a82f !important;
+  background-color: #00a82f !important;
+}
+
+#scouting_search-filtered_player_aggregates_table .btn-outline-default:hover, #scouting_search-filtered_player_aggregates_table .btn-default:not(.btn-primary, .btn-secondary, .btn-info, .btn-success, .btn-danger, .btn-warning, .btn-light, .btn-dark, .btn-link, [class*="btn-outline-"]):hover {
+  color: #fbfbfb !important;
+  border-color: #404040 !important;
+  background-color: #404040 !important;
+}
+
+#tactical_find-filtered_dynamic_events_table {
+  margin-top: 10px !important;
+}
+
+#scouting_search-player_info-player_info_div {
+  top: 50%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.modal-header {
+  padding: 15px 10px 10px 20px !important;
+  color: #00a82f !important;
+  background-color: #dae5da !important;
+}
+
+.modal-title {
+  font-weight: var(--bslib-dashboard-card-header-font-weight) !important;
+  line-height: 1.375rem !important;
+  font-size: small !important;
+}
+
+.modal-body {
+  background-color: #fbfbfb !important;
+}
+
+.modal-body h4, .modal-body h5 {
+  font-size: 16px !important;
+}
+
+.modal-footer {
+  background-color: #dae5da;
+  padding: 0.5rem;
+}
+
+#tactical_find-dynamic_event_video-event_info_div {
+  margin-top: 10px !important;
+}
+
+#scouting_search-player_info-player_info_row1 {
+  background-color: antiquewhite !important;
+}
+
+#scouting_search-player_info-player_info_row2 {
+  background-color: cornsilk !important;
+}
+
+#scouting_search-player_info-player_info_row3 {
+  background-color: aliceblue !important;
+}
+
+#scouting_search-player_info-no_results_label {
+  text-align: center !important;
+}
+
+.irs--shiny .irs-handle {
+  background-color: #00a82f !important;
+}
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+  background-color: #00a82f !important;
+}
+
+.irs--shiny .irs-bar {
+  background: #00a82f !important;
+}
+
+.checkbox-inline input:checked, .shiny-input-container .radio input:checked, .shiny-input-container .radio-inline input:checked {
+  background-color: #00a82f !important;
+  border-color: #00a82f !important;
+}
+
+.form-check-input:checked, .shiny-input-container .checkbox input:checked, .shiny-input-container .checkbox-inline input:checked,
+.shiny-input-container .radio input:checked, .shiny-input-container .radio-inline input:checked {
+  background-color: #00a82f !important;
+  border-color: #00a82f !important;
+}
+
+#tactical_find-dynamic_event_video-dynamic_event_video,
+#scouting_search-player_info-dynamic_event_video,
+#help-tactical_analysis_video,
+#help-player_scouting_video,
+#help-comparison_tool_video {
+  border-radius: 4px !important;
+}
+
+.form-check-input:focus, .shiny-input-container .checkbox input:focus, .shiny-input-container .checkbox-inline input:focus,
+.shiny-input-container .radio input:focus, .shiny-input-container .radio-inline input:focus {
+  box-shadow: 0 0 0 .25rem #00c21240 !important;
+}
+
+.form-control:focus {
+  border-color: #00a82f !important;
+  box-shadow: 0 0 0 .25rem #00c21240;
+}
+
+#scouting_search-player_info-no_results_label {
+  color: black !important;
+}
+
+#tactical_find-event_player_from_to_switch_div > .form-group.shiny-input-container {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.pretty input:checked ~ .state.p-danger label:after, .pretty.p-toggle .state.p-danger label:after {
+  background-color: #f99c31ff !important;
+}
+
+#scouting_search-results_ui > .form-group {
+  z-index: 99 !important;
+}
+
+[id^="scouting_search-custom_slider_"] .control-label {
+  margin-top: 0px !important;
+  display: table !important;
+}
+
+[id^="scouting_search-custom_slider_"] {
+  margin-top: -23px !important;
+}
+
+[id^="scouting_search-container_"] .item {
+  text-wrap: wrap;
+}
+
+[id^="scouting_search-container_"] .dropdown {
+  margin-top: -25px;
+}
+
+[id^="scouting_search-container_"] .form-group {
+  margin-bottom: -0.5rem;
+}
+
+[id^="scouting_search-container_"] .irs {
+  margin-bottom: 1.5rem !important;
+}
+
+.custom-select-upward {
+  bottom: 100% !important;
+  top: auto !important;
+  margin-bottom: 0px !important;
+}
+
+.selectize-control.single .selectize-input:not(.no-arrow).dropdown-active:after, .selectize-control.single .selectize-input:not(.no-arrow):after {
+  display: none !important;
+}
+
+#scouting_search-custom_selects_output.recalculating {
+  --_shiny-fade-opacity: var(--shiny-fade-opacity, 1) !important;
+}
+
+a.dynamic-link {
+  color: #00a82f !important;
+  text-decoration: none !important;
+}
+
+a.dynamic-link:active, a.dynamic-link:hover {
+  color: #404040 !important;
+  background-color: #fbfbfb !important;
+}
+
+#tactical_find-show_heatmap_input {
+  z-index: 99 !important;
+  position: relative !important;
+}

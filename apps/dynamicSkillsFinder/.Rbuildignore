@@ -1,0 +1,6 @@
+^renv$
+^renv\.lock$
+^dynamicSkillsFinder\.Rproj$
+^\.Rproj\.user$
+^[.]?air[.]toml$
+^\.vscode$
